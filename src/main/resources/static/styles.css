@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #F0F9F8;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#main-page {
+    position: relative;
+    width: 1440px;
+    height: auto;
+    background: #F0F9F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#group1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#recycle-apartment {
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #F26A6C;
+    margin-bottom: 20px;
+}
+
+#admin,
+#company {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F26A6C;
+}
+
+#line1 {
+    width: 1440px;
+    height: 6px;
+    background: #F26A6C;
+    transform: rotate(-0.13deg);
+    border: 6px solid #F26A6C;
+    margin-top: 20px; /* Adjust as needed to place the line below the text */
+}
+
+#group2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px; /* Adjust this value to prevent overlapping */
+}
+
+.section {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #F26A6C;
+    padding: 10px;
+    background: #FFF;
+}

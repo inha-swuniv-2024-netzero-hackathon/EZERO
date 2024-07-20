@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #F0F9F8;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#recycle-apartment {
+    position: absolute;
+    width: 1080px;
+    height: 152px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #F26A6C;
+}
+
+#admin {
+    position: absolute;
+    width: 258px;
+    height: 90px;
+    left: 50%;
+    transform: translateX(100px);
+    top: 40px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #F26A6C;
+}
+
+#line1 {
+    width: 1440px;
+    height: 6px;
+    background: #F26A6C;
+    transform: rotate(-0.13deg);
+    border: 6px solid #F26A6C;
+    margin-top: 161.5px;
+}
+
+/* Group 7 */
+#group7 {
+    position: absolute;
+    width: 1148px;
+    height: 383px;
+    left: calc(50% - 1148px/2);
+    top: 300px;
+    background: #FED3DD;
+    border-radius: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#log-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 40px;
+    color: #F2A2BD;
+}
+
+.log-item {
+    width: 33%;
+    text-align: center;
+}
+
+#log-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.log-row {
+    display: flex;
+    justify-content: space-between;
+    background: #F0F9F8;
+    border-radius: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.log-row .log-item {
+    font-size: 36px;
+    color: #333;
+}
